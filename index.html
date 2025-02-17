@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+
+    <!-- Navbar  Starts-->
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" class="Spotify">
+            <button class="home"><img src="assets/home.png"></button>
+            <span class="search-img"><img src="assets/search.png" class="search-png"></span>
+            <div class="search-bar">
+                <input type="text" placeholder="What do you want to play?">
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Download</a>
+            <span>|</span>
+            <a href="#">Install App</a>
+        </div>
+        <div class="auth-buttons">
+            <button class="signup">Sign up</button>
+            <button class="login">Log in</button>
+        </div>
+    </header>
+    <!-- Navbar ends -->
+
+    <!-- Page Content Starts-->
+
+    <main>
+        <!--Left side Content  -->
+        <div class="container-holder">
+            <div class="main-left-container-inner bg-grey">
+                <div class="library">
+                    <img src="assets/library.png" class="library-img invert">
+                    <h2>
+                        Your Library
+                    </h2>
+
+                </div>
+                <div class="songs-area">
+                    <div class="play-stuff">
+                        <li> <img src="assets/musicbutton.png" class="invert"></li>
+                        <div class="name">
+                            song name
+                        </div>
+                        <img src="assets/playbutton2.png" alt="" class="">
+                    </div>
+                    <ul>
+
+
+                    </ul>
+                </div>
+                <div class="footer-area-left">
+                    <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+                </div>
+            </div>
+            <!-- Left side content ends here -->
+
+            <!-- Right side content -->
+            <div class="main-right-container-inner bg-grey">
+                <div class="inside">
+                    <h2 class="flex">Featured Charts</h2>
+                    <div class="main-card-holder">
+                        <div data-folder="TSW" class="card-holder">
+                            
+                                <div class="play-button">
+                                </div>
+
+                    
+                        </div>
+
+                        <!-- music bar area -->
+
+                    </div>
+                    <div class="music-bar-holder">
+                        <div class="seek-bar-line">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                        <div class="song-name">
+
+                        </div>
+                        <div class="music-bar-buttons">
+                            <img class="previous-button" src="assets/previous.png" alt="">
+                            <img class="play--button" src="assets/playbar.png" alt="">
+                            <img class="next-button" src="assets/next.png" alt="">
+                        </div>
+                        <div class="volume-time-holder">
+                            <div class="song-time-volume">
+
+                            </div>
+                            <div class="volume">
+                                <img class="invert" src="assets/volume.png" alt="">
+                                <div class="volume-bar">
+                                    <input type="range" name="range-bar">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
